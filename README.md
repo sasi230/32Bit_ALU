@@ -112,22 +112,15 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 ![Screenshot 2024-11-17 135823](https://github.com/user-attachments/assets/5365b816-cd6c-4f68-b9b4-f80a46b3c965)
 
 ### Fig 3: Setting Multi-step simulation
-
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
-
 Click the cds.lib file and save the file by clicking on Save option 
 ![Screenshot 2024-11-17 135842](https://github.com/user-attachments/assets/a9a5dced-42c5-433f-aea2-510b08c2da04)
 
 ### Fig 4:cds.lib file Creation
-
 Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
-
 Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure .
-
 We are simulating verilog design without using any libraries 
-
 A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
-
 ![Screenshot 2024-11-17 135924](https://github.com/user-attachments/assets/d0c6c997-46a0-4b95-af3f-0620241664ee)
 
 
