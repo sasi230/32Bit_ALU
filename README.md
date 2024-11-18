@@ -1,12 +1,12 @@
-# 32Bit_ALU Simulation
+# EXP NO:3 32Bit_ALU Simulation
 
-# Aim: 
+## Aim: 
 
 Write a verilog code for 32 bit ALU supporting four logical and four arithmetic operations,use case statement and if statement for ALU behavioral modeling.
 
 To Verify the Functionality using Test Bench.
 
-# Tool Required:
+## Tool Required:
 
 Functional Simulation: Incisive Simulator (ncvlog, ncelab, ncsim)
 
@@ -31,8 +31,7 @@ A Blank Document opens up into which the following source code can be typed down
 (Note : File name should be with HDL Extension)
 
 ## a)To Verify the Functionality using Test Bench
-
-## Source Code – Using Case Statement :
+###  Source Code – Using Case Statement:
 ```
 module alu_32bit_case(y,a,b,f);
 input [31:0]a;
@@ -102,11 +101,11 @@ After this you can see the window like below
 
 To Launch Simulation tool 
 
-•linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design 
++linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design 
 
 or
 
-•linux:/> nclaunch& // On subsequent calls to NCVERILOG 
++linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
@@ -219,13 +218,8 @@ Steps for simulation – Run the simulation command with simulator options
 ![image](https://github.com/user-attachments/assets/4305b909-4de4-4fa8-aaa5-bf5ed987fda2)
 ## Fig 10:Simulation Waveform Window
 ![image](https://github.com/user-attachments/assets/60f9f546-5b2e-4200-9f08-f36cb01d7317)
-
-
-
-
-
-
-
+## Result:
+The functionality of a 4bit_up-down asynchronous reset Counter was successfully verified using a test bench and simulated with the nclaunch tool.
 
 
 
