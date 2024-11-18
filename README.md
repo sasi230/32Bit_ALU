@@ -211,6 +211,8 @@ Steps for simulation – Run the simulation command with simulator options
 ![image](https://github.com/user-attachments/assets/4305b909-4de4-4fa8-aaa5-bf5ed987fda2)
 ## Fig 10:Simulation Waveform Window
 ![image](https://github.com/user-attachments/assets/60f9f546-5b2e-4200-9f08-f36cb01d7317)
+
+
 ## Result:
 The functionality of a 4bit_up-down asynchronous reset Counter was successfully verified using a test bench and simulated with the nclaunch tool.
 
